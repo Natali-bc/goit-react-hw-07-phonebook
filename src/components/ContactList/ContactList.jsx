@@ -24,6 +24,7 @@ const ContactList = ({ visibleContacts, handleDelete }) => {
     </TransitionGroup>
   );
 };
+
 ContactList.propTypes = {
   visibleContacts: PropTypes.arrayOf(
     PropTypes.exact({
